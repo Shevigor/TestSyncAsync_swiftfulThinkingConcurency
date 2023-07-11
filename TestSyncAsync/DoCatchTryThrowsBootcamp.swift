@@ -13,8 +13,16 @@ import SwiftUI
 
 class DoCatchTryThrowsBootcampDataManager {
     
-    func getTitle() -> String {
-        return "NEW TEXT"
+    let isActive: Bool = false
+    
+    func getTitle() -> (title: String?, error: Error?) {
+        if isActive {
+            print("NEW TEXT")
+            return ("NEW TEXT", nil)
+        } else {
+            print("nil")
+            return (nil, URLError(.badURL))
+        }
     }
     
 }
@@ -26,8 +34,12 @@ class DoCatchTryThrowsBootcampViewModel: ObservableObject {
     let manager = DoCatchTryThrowsBootcampDataManager()
     
     func fetchTitle() {
-        let newTitle = manager.getTitle()
-        self.text = newTitle
+        let returnValue = manager.getTitle()
+        if let newTitle = returnValue.title {
+            self.text = newTitle
+        } else if let error = returnValue.error{
+            self.text = error.localizedDescription
+        }
     }
 }
 
