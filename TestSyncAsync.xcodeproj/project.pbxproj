@@ -11,6 +11,7 @@
 		CE64903E2A5D650A002D8215 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE64903D2A5D650A002D8215 /* ContentView.swift */; };
 		CE6490402A5D650A002D8215 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE64903F2A5D650A002D8215 /* Assets.xcassets */; };
 		CE6490432A5D650A002D8215 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE6490422A5D650A002D8215 /* Preview Assets.xcassets */; };
+		CE64904A2A5D6EBD002D8215 /* DoCatchTryThrowsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6490492A5D6EBD002D8215 /* DoCatchTryThrowsBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		CE64903D2A5D650A002D8215 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CE64903F2A5D650A002D8215 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE6490422A5D650A002D8215 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE6490492A5D6EBD002D8215 /* DoCatchTryThrowsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoCatchTryThrowsBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				CE64903B2A5D650A002D8215 /* TestSyncAsyncApp.swift */,
 				CE64903D2A5D650A002D8215 /* ContentView.swift */,
+				CE6490492A5D6EBD002D8215 /* DoCatchTryThrowsBootcamp.swift */,
 				CE64903F2A5D650A002D8215 /* Assets.xcassets */,
 				CE6490412A5D650A002D8215 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE64904A2A5D6EBD002D8215 /* DoCatchTryThrowsBootcamp.swift in Sources */,
 				CE64903E2A5D650A002D8215 /* ContentView.swift in Sources */,
 				CE64903C2A5D650A002D8215 /* TestSyncAsyncApp.swift in Sources */,
 			);

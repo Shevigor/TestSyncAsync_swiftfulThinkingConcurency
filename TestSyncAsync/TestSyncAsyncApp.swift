@@ -11,7 +11,7 @@ import SwiftUI
 struct TestSyncAsyncApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            DoCatchTryThrowsBootcamp()
         }
     }
 }
